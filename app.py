@@ -147,8 +147,7 @@ section[data-testid="stSidebar"] {
 # ──────────────────────────────────────────────────────────────────
 MONDAY_URL   = "https://api.monday.com/v2"
 GEMINI_BASE  = "https://generativelanguage.googleapis.com/v1beta/models"
-# Free-tier order: try highest-quota model first, fallback to smaller
-GEMINI_CHAIN = ["gemini-1.5-flash", "gemini-1.5-flash-8b"]
+GEMINI_CHAIN = ["gemini-2.0-flash", "gemini-1.5-flash"]
 
 SECTOR_MAP = {
     "powerline":"Powerline","power line":"Powerline","powerline inspection":"Powerline",
